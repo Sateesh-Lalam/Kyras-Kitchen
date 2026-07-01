@@ -1,0 +1,33 @@
+/* Kyra's Kitchen*/
+
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Fuzzy+Bubbles:wght@400;700&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap");
+
+/* CSS Starts here */
+#header h1,
+h2 {
+  text-align: center;
+  font-style: italic;
+  color: rgb(137, 5, 5);
+}
+
+#navbar a {
+  margin: 0 15px;
+}
+
+#Menu ul {
+  list-style: none;
+}
+
+h3 {
+  color: green;
+}
+
+body {
+  background-color: rgb(188, 230, 217);
+  font-family: google sans;
+  padding: 10px 50px;
+  margin: 10px;
+  font-style: italic;
+  text-align: center;
+}
