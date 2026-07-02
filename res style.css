@@ -2,25 +2,56 @@
 
 /* Fonts */
 @import url("https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Fuzzy+Bubbles:wght@400;700&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=DynaPuff:wght@400..700&family=Fuzzy+Bubbles:wght@400;700&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allura&family=Dancing+Script:wght@400..700&family=DynaPuff:wght@400..700&family=Fuzzy+Bubbles:wght@400;700&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Great+Vibes&display=swap");
 
 /* CSS Starts here */
-#header h1,
-h2 {
+#header {
+  background-color: rgb(7, 79, 71);
+  border: 2px solid yellow;
+  padding: 20px;
+}
+#header h1 {
+  font-family: Dancing Script;
+  font-size: 6rem;
   text-align: center;
-  font-style: italic;
-  color: rgb(137, 5, 5);
+  color: rgb(255, 255, 255);
+  margin: auto;
+}
+#header p {
+  font-family: Allura;
+  font-size: 1.8rem;
+  color: white;
 }
 
 #navbar a {
   margin: 0 15px;
+  text-decoration: none;
+}
+#navbar a:link,
+#navbar a:visited {
+  color: blue;
+}
+
+a:hover {
+  color: rgb(7, 171, 7);
 }
 
 #Menu ul {
   list-style: none;
+  text-align: left;
+}
+.menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
+h2 {
+  color: rgb(199, 30, 7);
+}
 h3 {
-  color: green;
+  color: rgb(12, 172, 44);
 }
 
 body {
@@ -30,4 +61,13 @@ body {
   margin: 10px;
   font-style: italic;
   text-align: center;
+}
+
+#footer {
+  background-color: rgb(7, 79, 71);
+  color: White;
+  padding: 10px;
+}
+#footer a {
+  color: rgb(199, 30, 7);
 }
